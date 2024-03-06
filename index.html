@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Planet Facts</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <h1>Planetary Fact Sheet</h1>
   <table id="planets">
-    <tr>
+    <tr id="names">
       <th>Planets</th>
       <th>Mercury</th>
       <th>Venus</th>
@@ -16,11 +17,11 @@
       <th>Jupiter</th>
     </tr>
     <tr>
-      <td>Images of Planets</td>
-      <td><img src="images/mercury.jpg" alt="?"></td>
-      <td><img src="images/venus.jpg" alt="?"></td>
-      <td><img src="images/mars.jpg" alt="?"></td>
-      <td><img src="images/jupiter.jpg" alt="?"></td>
+      <td>Images of the Planets</td>
+      <td><img src="images/mercury.jpg" alt="Planet Mercury"></td>
+      <td><img src="images/venus.jpg" alt="Planet Venus"></td>
+      <td><img src="images/mars.jpg" alt="Planet Mars"></td>
+      <td><img src="images/jupiter.jpg" alt="Planet Jupiter"></td>
     </tr>
     <tr>
       <td>Distance from the Sun (10^6 km)</td>
@@ -57,21 +58,23 @@
       <td>24.7</td>
       <td>9.9</td>
     </tr>
-    <tr>
-      <td>Mean Temperature (C)</td>
-      <td>167</td>
-      <td>464</td>
-      <td>-65</td>
-      <td>-110</td>
-    </tr>
-    <tr>
-      <div class='moons'>
+    <div class='temp'>
+      <tr>
+        <td>Mean Temperature (C)</td>
+        <td>167</td>
+        <td>464</td>
+        <td>-65</td>
+        <td>-110</td>
+      </tr>
+    </div>
+    <div class='moons'>
+      <tr>
         <td>Number of Moons</td>
         <td>0</td>
         <td>0</td>
         <td>2</td>
         <td>92</td>
-      </div>
-    </tr>
+      </tr>
+    </div>
   </table>
 </body>
